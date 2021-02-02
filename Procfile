@@ -1,0 +1,1 @@
+web: gunicorn newsapp : app --log-file -

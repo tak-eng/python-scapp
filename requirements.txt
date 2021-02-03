@@ -5,7 +5,9 @@ beautifulsoup4==4.9.3
 certifi==2020.12.5
 chardet==4.0.0
 distlib==0.3.1
+dj-database-url==0.5.0
 Django==3.1.5
+django-heroku==0.3.1
 filelock==3.0.12
 gunicorn==20.0.4
 idna==2.10
@@ -13,6 +15,7 @@ isort==5.7.0
 lazy-object-proxy==1.4.3
 mccabe==0.6.1
 pipenv==2020.11.15
+psycopg2-binary==2.8.6
 pylint==2.6.0
 pytz==2020.5
 requests==2.25.1
@@ -23,9 +26,5 @@ toml==0.10.2
 urllib3==1.26.3
 virtualenv==20.4.1
 virtualenv-clone==0.5.4
+whitenoise==5.2.0
 wrapt==1.12.1
-
---install-option="--no-deps" django-heroku
-dj-database-url
-psycopg2-binary
-whitenoise

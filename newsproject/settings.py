@@ -1,5 +1,6 @@
 import os
 import django_heroku
+import dj_database_url
 """
 Django settings for newsproject project.
 

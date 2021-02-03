@@ -25,7 +25,7 @@ virtualenv==20.4.1
 virtualenv-clone==0.5.4
 wrapt==1.12.1
 
---install-option="--no-deps" django-heroku
+--install-option="--no-deps" django_heroku
 dj-database-url
 psycopg2-binary
 whitenoise

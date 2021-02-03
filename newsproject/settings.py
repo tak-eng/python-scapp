@@ -1,4 +1,3 @@
-import django_heroku
 """
 Django settings for newsproject project.
 
